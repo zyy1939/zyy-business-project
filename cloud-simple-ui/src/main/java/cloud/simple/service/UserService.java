@@ -16,12 +16,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class UserService<FeignUserService> {
+public class UserService {
 	 @Autowired	 
 	 RestTemplate restTemplate;
 	
-	 @Autowired
-	 FeignUserService feignUserService;
+//	 @Autowired
+//	 FeignUserService feignUserService;
 	 
 	 final String SERVICE_NAME="cloud-simple-service";
 	 
